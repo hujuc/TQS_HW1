@@ -2,5 +2,5 @@ projectKey=pt.ua.tqs:moliceiro-meals
 serverUrl=http://localhost:9000
 serverVersion=25.4.0.105899
 dashboardUrl=http://localhost:9000/dashboard?id=pt.ua.tqs%3Amoliceiro-meals
-ceTaskId=d1219b55-70b0-48c9-bc12-6e41b47b41ec
-ceTaskUrl=http://localhost:9000/api/ce/task?id=d1219b55-70b0-48c9-bc12-6e41b47b41ec
+ceTaskId=be3c5af0-f4a9-4e6a-beba-f848cfc36cc5
+ceTaskUrl=http://localhost:9000/api/ce/task?id=be3c5af0-f4a9-4e6a-beba-f848cfc36cc5
