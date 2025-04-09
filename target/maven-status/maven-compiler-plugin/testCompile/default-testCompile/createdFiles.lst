@@ -1,0 +1,16 @@
+pt/ua/tqs/moliceiro/meals/repository/ReservationRepositoryTest.class
+pt/ua/tqs/moliceiro/meals/service/ReservationServiceTest.class
+pt/ua/tqs/moliceiro/meals/controller/WebControllerTest.class
+pt/ua/tqs/moliceiro/meals/repository/RestaurantRepositoryTest.class
+pt/ua/tqs/moliceiro/meals/service/MealServiceTest.class
+pt/ua/tqs/moliceiro/meals/repository/WeatherForecastRepositoryTest.class
+pt/ua/tqs/moliceiro/meals/selenium/TestFullMoliceiroMealsTest.class
+pt/ua/tqs/moliceiro/meals/controller/ReservationControllerTest.class
+pt/ua/tqs/moliceiro/meals/service/RestaurantServiceTest.class
+pt/ua/tqs/moliceiro/meals/controller/MealControllerTest.class
+pt/ua/tqs/moliceiro/meals/controller/RestaurantControllerTest.class
+pt/ua/tqs/moliceiro/meals/controller/WeatherControllerTest.class
+pt/ua/tqs/moliceiro/meals/repository/MealRepositoryTest.class
+pt/ua/tqs/moliceiro/meals/MoliceiroMealsApplicationTests.class
+pt/ua/tqs/moliceiro/meals/service/WeatherServiceTest.class
+pt/ua/tqs/moliceiro/meals/MoliceiroMealsEndToEndTest.class

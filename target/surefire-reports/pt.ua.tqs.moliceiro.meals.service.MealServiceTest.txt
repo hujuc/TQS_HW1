@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pt.ua.tqs.moliceiro.meals.service.MealServiceTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s -- in pt.ua.tqs.moliceiro.meals.service.MealServiceTest

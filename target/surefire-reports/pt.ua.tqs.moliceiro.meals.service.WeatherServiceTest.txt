@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: pt.ua.tqs.moliceiro.meals.service.WeatherServiceTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.515 s <<< FAILURE! -- in pt.ua.tqs.moliceiro.meals.service.WeatherServiceTest
+pt.ua.tqs.moliceiro.meals.service.WeatherServiceTest.whenGetWeatherForecastWithDateNotInResponse_thenThrowException -- Time elapsed: 0.031 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting code to raise a throwable.
+	at pt.ua.tqs.moliceiro.meals.service.WeatherServiceTest.whenGetWeatherForecastWithDateNotInResponse_thenThrowException(WeatherServiceTest.java:239)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

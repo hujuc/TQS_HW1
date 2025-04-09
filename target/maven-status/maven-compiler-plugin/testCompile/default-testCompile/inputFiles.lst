@@ -1,0 +1,16 @@
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/repository/MealRepositoryTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/controller/MealControllerTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/MoliceiroMealsApplicationTests.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/repository/WeatherForecastRepositoryTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/service/ReservationServiceTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/MoliceiroMealsEndToEndTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/controller/WeatherControllerTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/service/WeatherServiceTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/repository/ReservationRepositoryTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/controller/ReservationControllerTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/selenium/TestFullMoliceiroMealsTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/controller/RestaurantControllerTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/controller/WebControllerTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/service/MealServiceTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/service/RestaurantServiceTest.java
+/home/ugo/Desktop/UA/3ano/2semestre/TQS/P/TQS_HW1/src/test/java/pt/ua/tqs/moliceiro/meals/repository/RestaurantRepositoryTest.java
