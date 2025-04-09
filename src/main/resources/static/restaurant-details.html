@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Details - Moliceiro Meals</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Moliceiro Meals</a>
+            <button class="nav-toggle" id="navToggle">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="/restaurants">Restaurants</a>
+                <a href="/meals">Meals</a>
+                <a href="/reservations">Reservations</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="loading" class="spinner"></div>
+        
+        <div id="restaurant-details" style="display: none;">
+            <div class="back-button">
+                <a href="/restaurants" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to Restaurants
+                </a>
+            </div>
+
+            <section class="restaurant-header">
+                <h1 id="restaurant-name"></h1>
+                <div class="restaurant-info">
+                    <p><i class="fas fa-map-marker-alt"></i> <span id="restaurant-address"></span></p>
+                    <p><i class="fas fa-phone"></i> <span id="restaurant-phone"></span></p>
+                    <p><i class="fas fa-envelope"></i> <span id="restaurant-email"></span></p>
+                </div>
+            </section>
+
+            <section class="weather-section">
+                <h2>Today's Weather</h2>
+                <div class="weather-info">
+                    <h3>Weather Forecast</h3>
+                    <p id="weather-description">Loading weather forecast...</p>
+                    <div class="weather-details">
+                        <div class="weather-detail">
+                            <i class="fas fa-thermometer-half"></i>
+                            <span id="weather-temp">--°C</span>
+                        </div>
+                        <div class="weather-detail">
+                            <i class="fas fa-tint"></i>
+                            <span id="weather-humidity">--%</span>
+                        </div>
+                        <div class="weather-detail">
+                            <i class="fas fa-wind"></i>
+                            <span id="weather-wind">-- m/s</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="meals-section">
+                <h2>Today's Menu</h2>
+                <div class="meal-filters">
+                    <button class="btn btn-primary active" data-type="all">All</button>
+                    <button class="btn btn-secondary" data-type="breakfast">Breakfast</button>
+                    <button class="btn btn-secondary" data-type="lunch">Lunch</button>
+                    <button class="btn btn-secondary" data-type="dinner">Dinner</button>
+                </div>
+                
+                <div class="meals-grid" id="meals-container">
+                    <!-- Meals will be loaded here -->
+                </div>
+            </section>
+        </div>
+
+        <div id="error-message" class="error-message" style="display: none;">
+            <!-- Error message will be shown here -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Moliceiro Meals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/navigation.js"></script>
+    <script src="/js/restaurant-details.js"></script>
+</body>
+</html> 
