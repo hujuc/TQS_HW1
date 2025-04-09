@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals - Moliceiro Meals</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Moliceiro Meals</a>
+            <button class="nav-toggle" id="navToggle">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="/restaurants">Restaurants</a>
+                <a href="/meals" class="active">Meals</a>
+                <a href="/reservations">Reservations</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="meals-header">
+            <h1>Our Meals</h1>
+            <button id="addMealBtn" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Add Meal
+            </button>
+        </section>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="restaurantFilter">Restaurant:</label>
+                <select id="restaurantFilter">
+                    <option value="">All Restaurants</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="dateFilter">Date:</label>
+                <input type="date" id="dateFilter">
+            </div>
+            <div class="filter-group">
+                <label for="typeFilter">Type:</label>
+                <select id="typeFilter">
+                    <option value="">All Types</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="message" class="message"></div>
+        <div id="error" class="error"></div>
+
+        <section class="meals-grid" id="mealsList">
+            <!-- Meals will be loaded here -->
+        </section>
+
+        <!-- Add/Edit Meal Modal -->
+        <div id="mealModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">Add Meal</h2>
+                <form id="mealForm">
+                    <div class="form-group">
+                        <label for="restaurant">Restaurant</label>
+                        <select id="restaurant" name="restaurant" required>
+                            <option value="">Select a restaurant</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea id="description" name="description" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price (€)</label>
+                        <input type="number" id="price" name="price" required min="0" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mealType">Type</label>
+                        <select id="mealType" name="mealType" required>
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="dinner">Dinner</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Weather Modal -->
+        <div id="weatherModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Weather Forecast</h2>
+                <div id="weatherInfo" class="weather-info">
+                    <!-- Weather information will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Moliceiro Meals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/restaurantsApi.js"></script>
+    <script src="/js/mealsApi.js"></script>
+    <script src="/js/weatherApi.js"></script>
+    <script src="/js/meals.js"></script>
+    <script src="/js/navigation.js"></script>
+</body>
+</html> 

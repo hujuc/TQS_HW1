@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants - Moliceiro Meals</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Moliceiro Meals</a>
+            <div class="nav-links">
+                <a href="/restaurants.html" class="active">Restaurants</a>
+                <a href="/meals.html">Meals</a>
+                <a href="/reservations.html">Reservations</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="restaurants-header">
+            <h1>Our Restaurants</h1>
+            <button id="addRestaurantBtn" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Add Restaurant
+            </button>
+        </section>
+
+        <div id="message" class="message"></div>
+        <div id="error" class="error"></div>
+
+        <section class="restaurants-grid" id="restaurantsList">
+            <!-- Restaurants will be loaded here -->
+        </section>
+
+        <!-- Add/Edit Restaurant Modal -->
+        <div id="restaurantModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">Add Restaurant</h2>
+                <form id="restaurantForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" name="location" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="capacity">Capacity</label>
+                        <input type="number" id="capacity" name="capacity" required min="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="operatingHours">Operating Hours</label>
+                        <input type="text" id="operatingHours" name="operatingHours" required placeholder="e.g., 09:00-17:00">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Moliceiro Meals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/js/restaurantsApi.js"></script>
+    <script src="/js/restaurants.js"></script>
+</body>
+</html> 
